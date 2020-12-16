@@ -1,0 +1,110 @@
+
+.pricing {
+    height: 90vh;
+    background-color: #f2f7ff;
+}
+
+.price-title {
+    padding-top: 30px;
+}
+
+.pricing h1 {
+    color: #039102;
+    font-size: 45px;
+    text-align: center;
+}
+
+.pricing-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-img img {
+    width: 500px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-right: 90px;
+    transition: all .2s;
+}
+
+.price-img img:hover {
+    transform: scale(1.10);
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, .15);
+}
+
+.price-details {
+    width: 300px;
+}
+
+.price-details p {
+    font-size: 30px;
+}
+
+.price-details span {
+    color: #f0a70b;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* Testimonial Section */
+
+.testimonial {
+    height: 90vh;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+.testimonial-title h1 {
+    color: #039102;
+    font-size: 45px;
+    text-align: center;
+}
+
+.testimonial-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.testimonial-card span {
+    font-size: 17px;
+    color: #039102;
+    font-weight: ;
+}
+
+.quotes img {
+    width: 70px;  
+
+}
+
+.testimonial-profile img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    transition: all .2s;
+}
+
+.testimonial-profile img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, .15);
+}
+
+.testimony p {
+    text-align: center;
+    font-size: 20px;
+}
