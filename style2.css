@@ -1,7 +1,7 @@
 
 .pricing {
     height: 90vh;
-    background-color: #f2f7ff;
+    background-color: #fff;
 }
 
 .price-title {
@@ -51,7 +51,7 @@
 
 .testimonial {
     height: 90vh;
-    background-color: aquamarine;
+    background-color:  #f2f7ff;
     overflow: hidden;
 }
 
@@ -84,7 +84,7 @@
 .testimonial-card span {
     font-size: 17px;
     color: #039102;
-    font-weight: ;
+    font-weight: 500;
 }
 
 .quotes img {
@@ -96,7 +96,7 @@
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    transition: all .2s;
+    transition: all .1s;
 }
 
 .testimonial-profile img:hover {
@@ -107,4 +107,87 @@
 .testimony p {
     text-align: center;
     font-size: 20px;
+    
+}
+
+
+.about {
+    height: 85vh;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.about-txt h1 {
+    color: #039102;
+    font-size: 45px;
+    text-align: center;
+}
+
+.about-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.about-image img {
+    border-radius: 5px;
+    margin-right: 60px;
+    transition: all .2s;
+}
+
+.about-image img:hover {
+    transform: scale(1.10);
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, .15);
+}
+
+.about-details {
+    width: 600px;
+}
+
+.about-details p {
+    font-size: 27px;
+}
+
+.footer-section {
+    height: 35vh;
+    background-color: #039102;
+    color: #efefef;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    
+}
+
+.footer-1 {
+    margin-top: 40px;
+}
+
+.footer-1 a {
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+.footer-1 a:hover {
+    text-decoration: underline;
+    color: #f0a70b;
+}
+
+.fab {
+    font-size: 20px;
+    padding-right: 6px;
+}
+
+
+.greeting-message {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.greeting-message span {
+    color: rgb(218, 65, 65);
 }

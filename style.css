@@ -118,7 +118,9 @@ nav img {
 /* Services Section */
 
 .services {
-    height: 110vh;   
+    height: 110vh; 
+    background-color:  #f2f7ff;  
+    overflow: hidden;
 }
 
 .services-card {
