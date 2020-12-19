@@ -14,7 +14,8 @@ nav {
     align-items: center;
     padding: 15px;
     background-color: #fff;
-    /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+
     
 }
 
@@ -35,6 +36,24 @@ nav ul li a {
     padding: 10px;
     color: black;
     font-weight: 500;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 80%;
+    background-color: #f0a70b;
+    left: 10px;
+    bottom: -10px;
+    opacity: 0;
+    transition: transform .2s ease;
+}
+
+nav ul li a:hover::after {
+    transform: translateY(-18px);
+    opacity: 1;
 }
 
 nav img {
